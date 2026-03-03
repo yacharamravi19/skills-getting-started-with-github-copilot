@@ -38,9 +38,32 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Basketball Team": {
+        "description": "Competitive basketball league and practice",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["james@mergington.edu"]
+    },
+    "Tennis Club": {
+        "description": "Tennis training and friendly matches",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["sarah@mergington.edu"]
+    },
+    "Debate Club": {
+        "description": "Develop public speaking and argumentation skills",
+        "schedule": "Wednesdays, 3:30 PM - 4:45 PM",
+        "max_participants": 18,
+        "participants": ["alex@mergington.edu", "jordan@mergington.edu"]
+    },
+    "Science Club": {
+        "description": "Explore scientific experiments and research projects",
+        "schedule": "Fridays, 2:00 PM - 3:30 PM",
+        "max_participants": 25,
+        "participants": ["lisa@mergington.edu"]
     }
 }
-
 
 @app.get("/")
 def root():
